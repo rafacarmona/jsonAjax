@@ -1,0 +1,85 @@
+@font-face {
+    font-family: roboto;
+    *src: url(../fonts/Roboto-Regular-webfont.woff);
+ 	src: local('../fonts/Roboto-Regular-webfont'),
+        url('../fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Regular-webfont.svg#icomoonregular') format('svg');
+}
+
+
+div{
+	width: 100%;
+}
+html, body{
+	width: 100%;
+}
+main article{
+	width: 70%;
+	font-size: 1rem;
+	margin: 2% auto;
+	border: thin solid #e3e3e3;
+	border-radius: 3px;
+	padding: 2% ;
+	text-align: center;
+	font-family: roboto;
+}
+
+main *{
+	margin: 0.4rem;
+}
+
+input{
+	border: thin solid #e3e3e3;
+	border-radius: 3px;
+	padding: 0.3rem ;
+	width: 30%;
+}
+
+button{
+	border: thin solid #e3e3e3;
+	border-radius: 3px;
+	background: white;
+	padding: 0.4rem;
+	transition: background ease-in 0.3s;
+}
+
+button:hover{
+	background: antiquewhite;
+}
+
+#url{
+	font-size: 2.5rem;
+	text-decoration: none;
+	color: #64B5F6;
+	transition: color ease-out 0.3s;
+}
+
+#url:hover{
+	color: #2196F3;
+}
+
+#img{
+	width: 250px;
+}
+#desc{
+	border: thin solid #d3d3d3;
+	border-radius: 5px;
+	*padding: 1%;
+}
+
+#modal{
+	display: none;
+}
+
+.ui-dialog-titlebar{
+	padding: 0.5rem 0!important;
+}
+
+.ui-dialog-buttonpane{
+	padding: 0.5rem 0!important;
+}
+.ui-dialog-buttonpane button{
+	margin-left: 1rem!important;
+}

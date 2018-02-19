@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8" />
+	<title>Rafael Carmona Arrabal. ajax ejemplo jquery.</title>
+		<link href="styles/jquery-ui.css" rel="stylesheet">
+	<link rel="stylesheet" href="styles/style.css" />
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+	<script src="./js/jquery-ui.js"></script>
+	<link href="styles/jquery-ui.css" rel="stylesheet">
+	<script type="text/javascript" src="js/cntrl.js"></script>
+</head>
+	<body>
+		<main>
+			<article>
+				<h1>Buscador.</h1>
+				<input type="text" name="busqueda" id="busqueda" value="" placeholder="Introduce tu busqueda" maxlength="30"/><button id="cargarJson">cargar</button>
+			</article>
+			<article>
+				<div><a href="#" id="url">Nombre</a></div>
+				<img src="./imgs/framework.png" id="img" alt="mostrando una imagen por defecto.">
+				<div id="desc">Caja de descripción: aquí se mostrará la descripción del elemento cargado.</div>
+			</article>
+			<div id="modal"><p>Error, no se encontró ningún framework con este nombre.</p></div>
+			<noscript>
+			<div>Tu navegador no soporta javascript</div>
+			</noscript>
+		</main>
+	</body>
+</html>
